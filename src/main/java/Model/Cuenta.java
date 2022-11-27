@@ -118,6 +118,8 @@ public class Cuenta implements Serializable{
         return lista;
     }
     
+ 
+    
     public static boolean verificarUsuariodisponible(String usuario,String email,String archivo){
         ArrayListTDA<Cuenta> cuen = Cuenta.leer(archivo);
         for(Cuenta c:cuen){

@@ -12,8 +12,11 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.TilePane;
 import javafx.scene.text.Text;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.Initializable;
 
-public class SecondaryController {
+public class SecondaryController implements Initializable {
 
     @FXML
     private ImageView ImagenShow;
@@ -88,6 +91,10 @@ public class SecondaryController {
     @FXML
     void verDatos(ActionEvent event) {
 
+    }
+
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
     }
 
 }

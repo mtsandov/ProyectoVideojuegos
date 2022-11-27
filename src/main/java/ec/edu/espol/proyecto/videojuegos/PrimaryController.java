@@ -25,8 +25,26 @@ public class PrimaryController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
     }
     @FXML
-    private void CambiarAOpciones(MouseEvent event) {
-        ArrayListTDA<Cuenta> usu = Cuenta.leer("cuentas");
+    private void CambiarAOpciones(MouseEvent event) throws IOException {
+                 
+        try {
+                FXMLLoader fxmlloader = App.loadFXMLLoader("OpcionesFXML");
+                App.setRoot(fxmlloader);
+                App.setHeight(537);
+                App.setWidth(1000);
+                App.setHeight(722);
+               
+            
+               
+              
+            } catch (IOException ex) {
+                Alert a = new Alert(Alert.AlertType.ERROR,"No se pudo cambiar de escena");
+                a.show();   
+            }
+       
+    
+        
+       /* ArrayListTDA<Cuenta> usu = Cuenta.leer("cuentas");
         if (Cuenta.verificarCuenta(txtusuariologin.getText(),txtcontralogin.getText(),"cuentas")){
             ArrayListTDA<String> dat = Cuenta.datos(txtusuariologin.getText());
             try {
@@ -44,7 +62,7 @@ public class PrimaryController implements Initializable {
         else{
             Alert a = new Alert(Alert.AlertType.ERROR,"Los datos introducidos son incorrectos.");
             a.show();
-        }
+        }*/
     }
     
     @FXML
@@ -63,6 +81,8 @@ public class PrimaryController implements Initializable {
             }   
     }
 }
+
+
 
 
 

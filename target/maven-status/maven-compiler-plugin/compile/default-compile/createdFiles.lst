@@ -7,6 +7,7 @@ ec\edu\espol\proyecto\videojuegos\OpcionesFXMLController.class
 estructuras\CircularNode.class
 Model\Cuenta.class
 ec\edu\espol\proyecto\videojuegos\SecondaryController.class
+Model\pruebitas.class
 ec\edu\espol\proyecto\videojuegos\PrimaryController.class
 estructuras\ArrayListTDA.class
 estructuras\CircularLinkedList.class

@@ -19,6 +19,12 @@ public class ArrayListTDA<E> implements Iterable<E> , Serializable {
     
     private int ultimo, capacidad;
     private E arreglo[];
+    
+       public ArrayListTDA(int cap){
+        this.capacidad = cap;
+        arreglo = (E[]) (new Object[cap]);
+        ultimo = -1;
+    }
 
     public ArrayListTDA() {
         arreglo= (E[]) new Object[10];
@@ -86,13 +92,10 @@ public class ArrayListTDA<E> implements Iterable<E> , Serializable {
     
     
        public void crecerArreglo(){
-        capacidad = capacidad*2;
-        E[] arreglo2 =  (E[]) new Object[capacidad];
-        for (int i=0; i<ultimo+1; i++){
-            arreglo2[i] = arreglo[i];
-        }
- 
-        arreglo = arreglo2;
+      capacidad += capacidad/2;
+	E[] arr = (E[]) (new Object[capacidad]);
+	System.arraycopy(arreglo, 0, arr, 0, ultimo+1);
+	arreglo=arr;
     }
     public int size(){
         return ultimo;
