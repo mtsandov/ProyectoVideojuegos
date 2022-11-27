@@ -55,6 +55,10 @@ public class Videojuego implements Serializable {
     public void setCapturas(ArrayListTDA<File> capturas) {
         this.capturas = capturas;
     }
+    
+    public void setCapturas(File captura){
+        capturas.add(captura);
+    }
 
     public ArrayListTDA<Comentarios> getResenas() {
         return resenas;

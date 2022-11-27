@@ -1,18 +1,24 @@
-estructuras\CircularLinkedList$Iteradorxd.class
-ec\edu\espol\proyecto\videojuegos\App.class
-Model\Videojuego.class
-estructuras\ArrayListTDA$1.class
-Model\Usuario.class
 ec\edu\espol\proyecto\videojuegos\OpcionesFXMLController.class
 estructuras\CircularNode.class
+<<<<<<< HEAD
 Model\Cuenta.class
 ec\edu\espol\proyecto\videojuegos\SecondaryController.class
 Model\pruebitas.class
 ec\edu\espol\proyecto\videojuegos\PrimaryController.class
+=======
+>>>>>>> 0092632dfbc8a442110df71d963d440fd84121de
 estructuras\ArrayListTDA.class
 estructuras\CircularLinkedList.class
 Model\Comentarios.class
 module-info.class
 Model\Admin.class
+estructuras\CircularLinkedList$Iteradorxd.class
+ec\edu\espol\proyecto\videojuegos\App.class
+Model\Videojuego.class
+estructuras\ArrayListTDA$1.class
+Model\Usuario.class
+Model\Cuenta.class
+ec\edu\espol\proyecto\videojuegos\SecondaryController.class
+ec\edu\espol\proyecto\videojuegos\PrimaryController.class
 ec\edu\espol\proyecto\videojuegos\RegistroFXMLController.class
 ec\edu\espol\proyecto\videojuegos\ObjetoYaRegistradoException.class
