@@ -4,6 +4,7 @@
  */
 package estructuras;
 
+import java.io.Serializable;
 import java.util.Iterator;
 import java.util.function.Consumer;
 
@@ -14,7 +15,7 @@ import java.util.function.Consumer;
  * @author MelnieSandoval
  * @param <E>
  */
-public class ArrayListTDA<E> implements Iterable<E> {
+public class ArrayListTDA<E> implements Iterable<E> , Serializable {
     
     private int ultimo, capacidad;
     private E arreglo[];

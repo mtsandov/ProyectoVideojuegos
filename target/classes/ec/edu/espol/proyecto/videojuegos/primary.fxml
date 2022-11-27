@@ -15,8 +15,8 @@
             <Font size="14.0" />
          </font>
       </Text>
-      <Button layoutX="284.0" layoutY="165.0" mnemonicParsing="false" onAction="#CambiarAOpciones" onMouseClicked="#CambiarAOpciones" prefHeight="26.0" prefWidth="60.0" text="Login" />
-      <Button layoutX="284.0" layoutY="223.0" mnemonicParsing="false" onAction="#CambiarAR" text="Registro" />
+      <Button layoutX="284.0" layoutY="165.0" mnemonicParsing="false" onMouseClicked="#CambiarAOpciones" prefHeight="26.0" prefWidth="60.0" text="Login" />
+      <Button layoutX="284.0" layoutY="223.0" mnemonicParsing="false" onMouseClicked="#CambiarAR" text="Registro" />
       <TextField fx:id="txtusuariologin" layoutX="34.0" layoutY="165.0" prefHeight="26.0" prefWidth="206.0" />
       <PasswordField fx:id="txtcontralogin" layoutX="34.0" layoutY="223.0" prefHeight="26.0" prefWidth="206.0" />
       <Text layoutX="34.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario:" />
