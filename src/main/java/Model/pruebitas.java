@@ -6,6 +6,7 @@
 package Model;
 
 import estructuras.ArrayListTDA;
+import estructuras.RoundList;
 
 /**
  *
@@ -26,6 +27,13 @@ public class pruebitas {
        ArrayListTDA<Cuenta> cuentas2= Cuenta.leer("cuentas");
         for(Cuenta c:cuentas)
             System.out.println(c);
+        
+        RoundList <Integer> ola = new RoundList<>();
+        System.out.println(ola.toString());
+        ola.add(5);
+        System.out.println(ola.toString());
+        ola.add(6);
+        System.out.println(ola.toString());
     }
     
 }
