@@ -1,16 +1,12 @@
 ec\edu\espol\proyecto\videojuegos\OpcionesFXMLController.class
 estructuras\CircularNode.class
-<<<<<<< HEAD
-Model\Cuenta.class
-ec\edu\espol\proyecto\videojuegos\SecondaryController.class
 Model\pruebitas.class
-ec\edu\espol\proyecto\videojuegos\PrimaryController.class
-=======
->>>>>>> 0092632dfbc8a442110df71d963d440fd84121de
+estructuras\RoundList$RoundNode.class
 estructuras\ArrayListTDA.class
 estructuras\CircularLinkedList.class
 Model\Comentarios.class
 module-info.class
+estructuras\RoundList.class
 Model\Admin.class
 estructuras\CircularLinkedList$Iteradorxd.class
 ec\edu\espol\proyecto\videojuegos\App.class
