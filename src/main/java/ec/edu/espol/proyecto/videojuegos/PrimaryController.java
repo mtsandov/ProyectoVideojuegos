@@ -26,7 +26,8 @@ public class PrimaryController implements Initializable {
     }
     @FXML
     private void CambiarAOpciones(MouseEvent event) throws IOException {
-                 
+        
+        
         try {
                 FXMLLoader fxmlloader = App.loadFXMLLoader("OpcionesFXML");
                 App.setRoot(fxmlloader);
@@ -59,6 +60,7 @@ public class PrimaryController implements Initializable {
                 a.show();   
             }   
         }
+        
         else{
             Alert a = new Alert(Alert.AlertType.ERROR,"Los datos introducidos son incorrectos.");
             a.show();
