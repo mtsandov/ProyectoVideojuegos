@@ -27,8 +27,8 @@ public class ArrayListTDA<E> implements Iterable<E> , Serializable {
     }
 
     public ArrayListTDA() {
-        arreglo= (E[]) new Object[10];
-        capacidad=10;
+        arreglo= (E[]) new Object[2];
+        capacidad=2;
         ultimo=-1;
        
         
@@ -43,7 +43,7 @@ public class ArrayListTDA<E> implements Iterable<E> , Serializable {
         return (ultimo+1)==capacidad;
     }
     
- 
+    
     
     public boolean add(E elemento){
         if(this.estaVacio()){
@@ -145,6 +145,11 @@ public class ArrayListTDA<E> implements Iterable<E> , Serializable {
         };
         return it;
     }
-
+    
+    public void recorrer(){
+        for(int i = 0 ; i < capacidad; i++){
+            System.out.println(arreglo[i]);
+        }
+    }
    
 }
